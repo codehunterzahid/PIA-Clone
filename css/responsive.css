@@ -1,4 +1,4 @@
-/* ===== Tablet View ===== */
+/* ===== Tablet View Main section ===== */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -41,7 +41,7 @@
     }
 }
 
-/* ===== Mobile View  ===== */
+/* ===== Mobile View  Main section ===== */
 @media (max-width: 480px) {
     .navbar {
         flex-direction: column;
@@ -84,7 +84,7 @@
     }
 }
 
-/* ===== Tablet View (768px and below) ===== */
+/* ===== Tablet View Section 1 ===== */
 @media (max-width: 768px) {
     .sec1 {
         height: auto;
@@ -164,7 +164,7 @@
     }
 }
 
-/* ===== Mobile View (480px and below) ===== */
+/* ===== Mobile View Section 1 ===== */
 @media (max-width: 480px) {
     .sec1 {
         height: auto;
@@ -242,7 +242,7 @@
     }
 }
 
-/* ===== Tablet View (768px and below) ===== */
+/* ===== Tablet View Services ===== */
 @media (max-width: 768px) {
     .services {
         height: auto;
@@ -283,7 +283,7 @@
     }
 }
 
-/* ===== Mobile View (480px and below) ===== */
+/* ===== Mobile View Services ===== */
 @media (max-width: 480px) {
     .services {
         height: auto;
@@ -325,7 +325,7 @@
     }
 }
 
-/* ===== Tablet View (768px and below) ===== */
+/* ===== Tablet View Offers ===== */
 @media (max-width: 768px) {
     .offers {
         height: auto;
@@ -365,7 +365,6 @@
         border-radius: 10px;
     }
 
-    /* Adjust offer label positions */
     .common {
         font-size: 18px;
         width: auto;
@@ -382,7 +381,7 @@
     }
 }
 
-/* ===== Mobile View (480px and below) ===== */
+/* ===== Mobile View Offers ===== */
 @media (max-width: 480px) {
     .offers {
         height: auto;
@@ -430,7 +429,6 @@
         text-align: center;
     }
 
-    /* Remove absolute positioning on mobile */
     .fst,
     .scnd,
     .trd,
@@ -442,7 +440,7 @@
 }
 
 
-/* ===== Tablet View (768px and below) ===== */
+/* ===== Tablet View Coperate program===== */
 @media (max-width: 768px) {
     .program {
         height: auto;
@@ -473,7 +471,7 @@
     }
 }
 
-/* ===== Mobile View (480px and below) ===== */
+/* ===== Mobile View Coperate Program ===== */
 @media (max-width: 480px) {
     .program {
         height: auto;
@@ -508,7 +506,7 @@
 }
 
 
-/* ===== Tablet View (768px and below) ===== */
+/* ===== Tablet View News ===== */
 @media (max-width: 768px) {
     .news {
         height: auto;
@@ -568,7 +566,7 @@
     }
 }
 
-/* ===== Mobile View (480px and below) ===== */
+/* ===== Mobile View News ===== */
 @media (max-width: 480px) {
     .news {
         height: auto;
@@ -625,66 +623,8 @@
 }
 
 
-/* Responsive Design for Contact Section */
+/* tab Contact Section */
 
-@media (max-width: 1024px) {
-  .contact {
-    height: auto;
-    flex-direction: column;
-    padding: 30px 0;
-  }
-
-  .contact-main {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
-
-  .contact-div1,
-  .contact-div2 {
-    width: 90%;
-    height: auto;
-    margin-bottom: 25px;
-  }
-
-  .contact-div1 p {
-    font-size: 26px;
-    padding: 20px 0;
-  }
-
-  .field {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .field div {
-    width: 90%;
-    margin-bottom: 15px;
-  }
-
-  .contact-div1 button {
-    right: 0;
-    bottom: 0;
-    display: block;
-    margin: 20px auto;
-  }
-
-  .iphone img {
-    padding: 0;
-    width: 90%;
-    display: block;
-    margin: 30px auto;
-  }
-
-  .div2-add h5 {
-    font-size: 24px;
-    padding: 20px 10px;
-  }
-
-  .div2-add img {
-    padding-left: 10px;
-  }
-}
 
 @media (max-width: 768px) {
   .div2-add, .iphone {
@@ -710,6 +650,9 @@
     padding: 10px 20px;
   }
 }
+
+/* mobile Contact Section */
+
 
 @media (max-width: 480px) {
   .contact {
@@ -740,60 +683,7 @@
 }
 
 
-/* Responsive Design for Footer */
-
-@media (max-width: 1024px) {
-  footer {
-    height: auto;
-    padding-top: 8vh;
-  }
-
-  .footer-contact {
-    flex-wrap: wrap;
-    height: auto;
-    text-align: center;
-    padding: 20px 0;
-  }
-
-  .footer-contact div {
-    width: 45%;
-    margin-bottom: 20px;
-    font-size: 16px;
-  }
-
-  .footer-sec2 {
-    flex-wrap: wrap;
-    height: auto;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .footer-sec2 div {
-    width: 45%;
-    margin-bottom: 30px;
-  }
-
-  .about-us,
-  .facility,
-  .help {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-us h4,
-  .facility h4,
-  .help h4 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  .about-us li,
-  .facility li,
-  .help li {
-    padding-top: 6px;
-    font-size: 15px;
-  }
-}
+/* tablet Footer Section */
 
 @media (max-width: 768px) {
   .footer-contact div {
@@ -817,6 +707,9 @@
     margin: 30px 10px;
   }
 }
+
+/* Mobile Footer Section */
+
 
 @media (max-width: 480px) {
   footer {
