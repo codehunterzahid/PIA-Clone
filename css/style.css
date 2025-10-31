@@ -271,7 +271,6 @@ a{
 .child2{
     width: 25%;
     height: 100%;
-    background-color: green;
     border-radius: 10px;
 }
 
@@ -283,7 +282,6 @@ a{
 .child1 div{
     width: 100%;
     height: 48%;
-    background-color: red;
     border-radius: 10px;
 }
 
@@ -294,19 +292,60 @@ a{
     margin-top: 21px;
 }
 .img3{
-    background-color: aqua;
     width: 100%;
     height: 38%;
     margin-bottom: 22px;
-    border-radius: 10px;
 }
 .img4{
-    background-color: #006937;
     width: 100%;
     height: 58%;
     margin-top: 21px;
+}
+
+.o-parent img{
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
 }
+
+.common{
+    background-color: #aa9113ce;
+    color: white;
+    width: 80px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fst{
+    position: relative;
+    top: -230px;
+}
+
+.scnd{
+    position: relative;
+    top: -230px;
+}
+
+
+.trd{
+    position: relative;
+    top: -530px;
+}
+.frth{
+    position: relative;
+    top: -170px;
+    width: 150px;
+    padding-right: 20px;
+}
+.ffth{
+    position: relative;
+    top: -290px;
+}
+
 
 /*     Corporate Program    */
 
@@ -316,3 +355,4 @@ a{
     background-color: black;
     margin-bottom: 50px;
 }
+
