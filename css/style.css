@@ -5,12 +5,13 @@
 
 }
 
+/*      Main Section     */
+
 .main {
     width: 100%;
     height: 90vh;
 }
 
-/*      Main Section     */
 
 .navbar{
     background-color: white;
@@ -213,7 +214,7 @@ a{
     color: #006937;
 }
 
-.s-parent{
+.service-parent{
     width: 100%;
     height: 78vh;
     margin-top: 8vh;
@@ -221,26 +222,26 @@ a{
     justify-content: space-evenly;
 }
 
-.s-child{
+.service-child{
     background-color: white;
     height: 100%;
     width: 21%;
     border-radius: 20px;
 }
 
-.s-child h2{
+.service-child h2{
     color: #006937;
     font-size: 20px;
     padding: 10px 12px;
 }
 
-.s-child p{
+.service-child p{
     padding: 5px 12px;
     font-size: 17px;
 }
 
 
-/*     Services    */
+/*     Offers    */
 
 .offers{
     height: 117vh;
@@ -254,30 +255,30 @@ a{
     padding-bottom: 33px;
 }
 
-.o-parent{
+.offer-parent{
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
 }
 
-.child1{
+.offer-child1{
     width: 27%;
     height: 100%;
 }
 
-.child2{
+.offer-child2{
     width: 25%;
     height: 100%;
     border-radius: 10px;
 }
 
-.child3{
+.offer-child3{
     width: 43%;
     height: 100%;
 }
 
-.child1 div{
+.offer-child1 div{
     width: 100%;
     height: 48%;
     border-radius: 10px;
@@ -300,7 +301,7 @@ a{
     margin-top: 21px;
 }
 
-.o-parent img{
+.offer-parent img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -355,24 +356,24 @@ a{
     margin-bottom: 50px;
 }
 
-.p-content{
+.program-content{
     color: white;
     height: 100%;
     width: 65%;
     padding-left: 33%;
 }
 
-.p-head{
+.program-head{
     padding: 30px 0;
     font-size: 33px;
 }
 
-.p-text{
+.program-text{
     padding-bottom: 20px;
     font-size: 17px;
 }
 
-.p-btn{
+.program-btn{
     background-color: white;
     color: black;
     font-weight: bold;
@@ -397,7 +398,7 @@ a{
     padding-top: 40px;
 }
 
-.n-parent{
+.news-parent{
     width: 100%;
     height: 92vh;
     margin-top: 6vh;
@@ -405,26 +406,26 @@ a{
     justify-content: space-evenly;
 }
 
-.n-parent div{
+.news-parent div{
     height: 100%;
     width: 31%;
 
 }
 
-.n-parent div img{
+.news-parent div img{
     width: 100%;
 }
-.n-parent div h2{
+.news-parent div h2{
     color: #006937;
     padding: 15px 25px;
     font-size: 27px;
 }
-.n-parent div p{
+.news-parent div p{
     padding: 0 25px;
     padding-bottom: 35px;
     font-size: 15px;
 }
-.n-parent div a{
+.news-parent div a{
     text-decoration: none;
     margin-left: 25px;
     margin-top: 25px;
@@ -447,14 +448,14 @@ a{
     align-items: center;
 }
 
-.c-main{
+.contact-main{
     width: 100%;
     height: 47vh;
     display: flex;
     justify-content: space-evenly;
 }
 
-.c1{
+.contact-div1{
     background-image: url(../Assets/cloud.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -464,7 +465,7 @@ a{
     height: 100%;
     color: white;
 }
-.c2{
+.contact-div2{
       background-image: linear-gradient(to right, #00693685 , #006936);
     width: 47%;
     height: 100%;
@@ -473,17 +474,17 @@ a{
     justify-content: space-evenly;
 }
 
-.c2-add{
+.div2-add{
     height: 100%;
     width: 45%;
 }
 
-.iph{
+.iphone{
     height: 100%;
     width: 45%;
 }
 
-.c2-add h5{
+.div2-add h5{
     color: white;
     font-size: 30px;
     padding-left: 20px;
@@ -491,17 +492,17 @@ a{
     padding-bottom: 30px;
 }
 
-.c2-add img{
+.div2-add img{
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
-.iph img{
+.iphone img{
     padding-top: 43px;
     padding-left: 50px;
 }
 
-.c1 p{
+.contact-div1 p{
     font-size: 31px;
     text-align: center;
     padding-top: 40px;
@@ -532,7 +533,7 @@ a{
     padding-left: 10px;
 }
 
-.c1 button{
+.contact-div1 button{
     background-color: #006937;
     color: white;
     border: none;
@@ -545,3 +546,128 @@ a{
 }
 
 /*     Footer    */
+
+footer{
+    background-image: url(../Assets/wave2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #f9f5ec;
+    height: 95vh;
+    width: 100%;
+    padding-top: 12vh;
+}
+
+.footer-contact{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer-contact div{
+    height: 100%;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #006937;
+}
+
+.footer-contact i{
+    padding-right: 12px;
+    font-size: 25px;
+}
+.footer-contact p{
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+.footer-contact p:hover{
+    color: #aa9113;
+}
+hr{
+    margin: 40px 20px;
+}
+
+.footer-sec2{
+    width: 100%;
+    height: 30vh;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-sec2 div{
+    height: 100%;
+    width: 29%;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us h4{
+    font-size: 20px;
+    color: #006937;
+}
+
+.about-us li{
+    list-style: none;
+    color: #006937;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+
+.facility{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.facility h4{
+    font-size: 20px;
+    color: #006937;
+}
+
+.facility li{
+    list-style: none;
+    color: #006937;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+
+.help{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.help h4{
+    font-size: 20px;
+    color: #006937;
+}
+
+.help li{
+    list-style: none;
+    color: #006937;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+footer li:hover{
+    color: #aa9113;
+}
+
+.rights{
+    color: #006937;
+    text-align: center;
+}
