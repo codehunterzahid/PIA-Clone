@@ -384,3 +384,164 @@ a{
 
 
 /*     News Section    */
+
+.news{
+    width: 100%;
+    height: 110vh;
+}
+
+.news h5{
+    color: #006937;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.n-parent{
+    width: 100%;
+    height: 92vh;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.n-parent div{
+    height: 100%;
+    width: 31%;
+
+}
+
+.n-parent div img{
+    width: 100%;
+}
+.n-parent div h2{
+    color: #006937;
+    padding: 15px 25px;
+    font-size: 27px;
+}
+.n-parent div p{
+    padding: 0 25px;
+    padding-bottom: 35px;
+    font-size: 15px;
+}
+.n-parent div a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #006937;
+    border: 1px solid rgba(0, 0, 0, 0.747);
+    border-radius: 3px;
+}
+
+
+/*     Contact    */
+
+.contact{
+    width: 100%;
+    height: 70vh;
+    background-color: #f9f5ec;
+    display: flex;
+    align-items: center;
+}
+
+.c-main{
+    width: 100%;
+    height: 47vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c1{
+    background-image: url(../Assets/cloud.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 47%;
+    border-radius: 10px;
+    height: 100%;
+    color: white;
+}
+.c2{
+      background-image: linear-gradient(to right, #00693685 , #006936);
+    width: 47%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c2-add{
+    height: 100%;
+    width: 45%;
+}
+
+.iph{
+    height: 100%;
+    width: 45%;
+}
+
+.c2-add h5{
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.c2-add img{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.iph img{
+    padding-top: 43px;
+    padding-left: 50px;
+}
+
+.c1 p{
+    font-size: 31px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.field{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.field div{
+    width: 42%;
+
+}
+
+.field label{
+    color: white;
+    font-size: 12px;
+}
+.field input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.c1 button{
+    background-color: #006937;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 12px;
+    font-size: 17px;
+    position: relative;
+    right: -535px;
+    bottom: -20px;
+}
+
+/*     Footer    */
