@@ -13,13 +13,13 @@
   </head>
   <body>
     <!-----------------Navbar-------------------->
-    <div class="main" id="main">
+    <div class="home" id="home">
       <nav class="navbar">
-        <a href="#main"
-          ><img class="logo" src="Assets/pia-logo.svg" alt=""
+        <a href="#home"
+          ><img class="nav-logo" src="Assets/pia-logo.svg" alt="Nav Logo"
         /></a>
 
-        <ul class="links">
+        <ul class="nav-links">
           <li class="link">Where we Fly</li>
           <li class="link">Experience</li>
           <li class="link">Loyalty Programs</li>
@@ -29,45 +29,50 @@
 
         <div class="login">
           <i class="fa-solid fa-magnifying-glass icon"></i>
-          <button class="btn">Award + Login</button>
+          <button class="login-btn">Award + Login</button>
         </div>
       </nav>
 
-      <img class="bg" src="Assets/CAN-PAK-FFP-50percentMiles.jpg" alt="" />
+      <img class="hero-bg" src="Assets/CAN-PAK-FFP-50percentMiles.jpg" alt="" />
     </div>
 
     <!-----------------Section 1-------------------->
 
-    <section class="sec1">
-      <div class="travel">
-        <div class="btns">
-          <div class="btn1">
+    <section class="flight-info">
+
+      <div class="booking-info">
+
+        <div class="booking-links">
+
+          <div class="booking-link">
             <i class="fa-solid fa-plane"></i>
             <p class="text">Flight</p>
           </div>
-          <div class="btn1">
+          <div class="booking-link">
             <i class="fa-solid fa-desktop"></i>
             <p class="text">Web Check-in</p>
           </div>
-          <div class="btn1 active">
+          <div class="booking-link active">
             <i class="fa-solid fa-ticket"></i>
             <p class="text">My Booking</p>
           </div>
-          <div class="btn1">
+          <div class="booking-link">
             <i class="fa-solid fa-clock"></i>
             <p class="text">Flight Status</p>
           </div>
-          <div class="btn1">
+          <div class="booking-link">
             <i class="fa-solid fa-calendar"></i>
             <p class="text">Schedules</p>
           </div>
+
         </div>
 
-        <div class="content">
-          <div class="table">
+        <div class="info-content">
+
+          <div class="info-table">
             <input class="input" type="text" placeholder="PNR Number" />
             <input class="input" type="text" placeholder="Surname" />
-            <button class="tbtn">My Booking</button>
+            <button class="info-btn">My Booking</button>
           </div>
 
           <p>
@@ -75,16 +80,19 @@
             Ticket customers only.
           </p>
 
-          <div class="ads">
-            <img src="Assets/add1.png" alt="Add1" />
-            <img src="Assets/add2.png" alt="Add2" />
+          <div class="app-links">
+            <img src="Assets/add1.png" alt="PlayStore link" />
+            <img src="Assets/add2.png" alt="AppStore Link" />
           </div>
+
         </div>
+
       </div>
 
-      <div class="modal">
+
+      <div class="booking-container">
         <ul>
-          <li class="pre">Charter Flight</li>
+          <li class="pre-display">Charter Flight</li>
           <li>Online Discount</li>
           <li>Web & Mobile Check-in</li>
           <li>Call n Fly</li>
@@ -92,7 +100,7 @@
         </ul>
 
         <div class="modal-img">
-          <img src="Assets/chartered-flight.jpg" alt="" />
+          <img src="Assets/chartered-flight.jpg" alt="Charter flight image" />
         </div>
       </div>
     </section>
@@ -102,9 +110,9 @@
     <section class="services">
       <h1>OUR SERVICES</h1>
 
-      <div class="service-parent">
-        <div class="service-child">
-          <img src="Assets/services1.png" alt="" />
+      <div class="service-container">
+        <div class="service-details">
+          <img src="Assets/services1.png" alt="Pre-Book Meal" />
           <h2>Pre-Book Meal</h2>
           <p>
             Indulge in anticipation with our Pre-booked Meals – a culinary
@@ -112,8 +120,8 @@
             delightful feast awaits you at your destination."
           </p>
         </div>
-        <div class="service-child">
-          <img src="Assets/servies2.png" alt="" />
+        <div class="service-details">
+          <img src="Assets/servies2.png" alt="Seat Selection" />
           <h2>Seat Selection</h2>
           <p>
             Tailor your travel experience with our Seat Selection feature, where
@@ -121,8 +129,8 @@
             journey personalized just for you.
           </p>
         </div>
-        <div class="service-child">
-          <img src="Assets/services3.png" alt="" />
+        <div class="service-details">
+          <img src="Assets/services3.png" alt="Baggage" />
           <h2>Pre-Book Baggage</h2>
           <p>
             Tailor your travel experience with our Seat Selection feature, where
@@ -130,8 +138,8 @@
             journey personalized just for you.
           </p>
         </div>
-        <div class="service-child">
-          <img src="Assets/services4.png" alt="" />
+        <div class="service-details">
+          <img src="Assets/services4.png" alt="Assistance" />
           <h2>Special Assistance</h2>
           <p>
             Indulge in anticipation with our Pre-booked Meals – a culinary
@@ -144,44 +152,45 @@
 
     <!-----------------Offers-------------------->
 
-    <section class="offers">
+    <section class="offers-section">
       <h2>BEST OFFERS</h2>
 
-      <div class="offer-parent">
-        <div class="offer-child1">
-          <div class="img1">
-            <img src="Assets/Skardu.png" alt="" />
-            <p class="common fst">Lahore Skardu ...</p>
+      <div class="offer-container">
+
+        <div class="offer-card1">
+          <div class="offer-img1">
+            <img src="Assets/Skardu.png" alt="Skardu" />
+            <p class="offer-text text-1">Lahore Skardu ...</p>
           </div>
 
-          <div class="img2">
-            <img src="Assets/Paris - Shanzillizay.png" alt="" />
-            <p class="common scnd">
+          <div class="offer-img2">
+            <img src="Assets/Paris - Shanzillizay.png" alt="PARIS" />
+            <p class="offer-text text-2">
               Islamabad Paris <br />
               ...
             </p>
           </div>
         </div>
 
-        <div class="offer-child2">
-          <img src="Assets/YTO.png" alt="" />
-          <p class="common trd">
+        <div class="offer-card2">
+          <img src="Assets/YTO.png" alt="TORONTO" />
+          <p class="offer-text text-3">
             Islamabad Toronto <br />
             ...
           </p>
         </div>
 
-        <div class="offer-child3">
-          <div class="img3">
-            <img src="Assets/kuala_lumpur.jpeg" alt="" />
-            <p class="common frth">
+        <div class="offer-card3">
+          <div class="offer-img3">
+            <img src="Assets/kuala_lumpur.jpeg" alt="Lumpur" />
+            <p class="offer-text text-4">
               Islamabad Kuala Lumpur <br />
               ...
             </p>
           </div>
-          <div class="img4">
-            <img src="Assets/baku_offers.png" alt="" />
-            <p class="common ffth">
+          <div class="offer-img4">
+            <img src="Assets/baku_offers.png" alt="Baku" />
+            <p class="offer-text text-5">
               Lahore Baku <br />
               ...
             </p>
@@ -193,7 +202,7 @@
     <!-----------------Corporate program-------------------->
 
     <section class="program">
-      <div class="program-content">
+      <div class="program-container">
         <h2 class="program-head">A+ Executive Corporate Program</h2>
         <p class="program-text">
           Our business services offer flexibility and exclusive savings for your

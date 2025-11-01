@@ -7,7 +7,7 @@
 
 /*      Main Section     */
 
-.main {
+.home {
     width: 100%;
     height: 90vh;
 }
@@ -24,7 +24,7 @@
     z-index: 2;
 }
 
-.logo{
+.nav-logo{
     width: 180px;
     margin-left: 20px;
 }
@@ -32,7 +32,7 @@
 a{
     text-decoration: none;
 }
-.links{
+.nav-links{
     list-style: none;
     width: 45%;
     display: flex;
@@ -58,7 +58,7 @@ a{
     padding-right: 10px;
 }
 
-.btn{
+.login-btn{
     background-color: #006937;
     color: white;
     padding: 8px 20px;
@@ -68,7 +68,7 @@ a{
     margin-left: 10px;
 }
 
-.bg{
+.hero-bg{
     width: 100%;
     margin-top: 8vh;
     height: 85vh;
@@ -78,12 +78,12 @@ a{
 
 /*      Section 1     */
 
-.sec1{
+.flight-info{
     width: 100%;
     height: 80vh;
 }
 
-.travel{
+.booking-info{
     position: relative;
     top: -25vh;
     left: 10%;
@@ -92,7 +92,7 @@ a{
     
 }
 
-.btns{
+.booking-links{
     width: 100%;
     height: 7vh;
     display: flex;
@@ -100,7 +100,7 @@ a{
     align-items: center;
 }
 
-.btn1{
+.booking-link{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,13 +120,13 @@ a{
     color: #aa9113;
 }
 
-.content{
+.info-content{
     height: 33vh;
     width: 100%;
     background-color: white;
 }
 
-.table{
+.info-table{
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -140,7 +140,7 @@ a{
     outline: none;
 }
 
-.tbtn{
+.info-btn{
     width: 20% ;
     height: 45px;
     background-color: #006937;
@@ -149,28 +149,28 @@ a{
     font-size: 20px;
 }
 
-.content p{
+.info-content p{
     padding-left: 30px;
     padding-bottom: 20px ;
     font-size: 17px;
 }
 
-.ads{
+.app-links{
     display: flex;
 }
 
-.ads img{
+.app-links img{
     height: 50px;
     padding-left: 30px;
     padding-top: 10px;
 }
 
-.modal{
+.booking-container{
     width: 100%;
     height: 40vh;
 }
 
-.modal ul{
+.booking-container ul{
     color: rgb(165, 165, 165);
     list-style: none;
     display: flex;
@@ -183,7 +183,7 @@ a{
     cursor: pointer;
 }
 
-.pre{
+.pre-display{
     color: #006937 ;
 }
 
@@ -214,7 +214,7 @@ a{
     color: #006937;
 }
 
-.service-parent{
+.service-container{
     width: 100%;
     height: 78vh;
     margin-top: 8vh;
@@ -222,20 +222,24 @@ a{
     justify-content: space-evenly;
 }
 
-.service-child{
+.service-details{
     background-color: white;
     height: 100%;
     width: 21%;
     border-radius: 20px;
 }
 
-.service-child h2{
+.service-details img{
+    width: 100%;
+}
+
+.service-details h2{
     color: #006937;
     font-size: 20px;
     padding: 10px 12px;
 }
 
-.service-child p{
+.service-details p{
     padding: 5px 12px;
     font-size: 17px;
 }
@@ -243,71 +247,71 @@ a{
 
 /*     Offers    */
 
-.offers{
+.offers-section{
     height: 117vh;
     width: 100%;
 }
 
-.offers h2{
+.offers-section h2{
     color: #006937;
     font-size: 30px;
     padding: 60px 20px;
     padding-bottom: 33px;
 }
 
-.offer-parent{
+.offer-container{
     width: 100%;
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
 }
 
-.offer-child1{
+.offer-card1{
     width: 27%;
     height: 100%;
 }
 
-.offer-child2{
+.offer-card2{
     width: 25%;
     height: 100%;
     border-radius: 10px;
 }
 
-.offer-child3{
+.offer-card3{
     width: 43%;
     height: 100%;
 }
 
-.offer-child1 div{
+.offer-card1 div{
     width: 100%;
     height: 48%;
     border-radius: 10px;
 }
 
-.img1{
+.offer-img1{
     margin-bottom: 21px;
 }
-.img2{
+.offer-img2{
     margin-top: 21px;
 }
-.img3{
+.offer-img3{
     width: 100%;
     height: 38%;
     margin-bottom: 22px;
 }
-.img4{
+.offer-img4{
     width: 100%;
     height: 58%;
     margin-top: 21px;
 }
 
-.offer-parent img{
+.offer-container img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
 
-.common{
+.offer-text{
     background-color: #aa9113ce;
     color: white;
     width: 80px;
@@ -318,30 +322,30 @@ a{
     padding-right: 90px;
 }
 
-.fst{
+.text-1{
     position: relative;
-    top: -230px;
+    top: -280px;
 }
 
-.scnd{
+.text-2{
     position: relative;
-    top: -230px;
+    top: -280px;
 }
 
 
-.trd{
+.text-3{
     position: relative;
-    top: -530px;
+    top: -650px;
 }
-.frth{
+.text-4{
     position: relative;
-    top: -170px;
+    top: -210px;
     width: 170px;
     padding-right: 5px;
 }
-.ffth{
+.text-5{
     position: relative;
-    top: -290px;
+    top: -350px;
 }
 
 
@@ -350,13 +354,15 @@ a{
 .program{
     background-image: linear-gradient(to right, rgba(0, 105, 54, 0.555), rgba(0, 105, 54, 0.644)), url('../Assets/corpotate_banner.png');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 45vh;
     background-color: black;
     margin-bottom: 50px;
 }
 
-.program-content{
+.program-container{
     color: white;
     height: 100%;
     width: 65%;
@@ -370,6 +376,7 @@ a{
 
 .program-text{
     padding-bottom: 20px;
+    line-height: 30px;
     font-size: 17px;
 }
 
