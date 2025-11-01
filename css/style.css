@@ -324,28 +324,28 @@ a{
 
 .text-1{
     position: relative;
-    top: -280px;
+    top: -230px;
 }
 
 .text-2{
     position: relative;
-    top: -280px;
+    top: -230px;
 }
 
 
 .text-3{
     position: relative;
-    top: -650px;
+    top: -530px;
 }
 .text-4{
     position: relative;
-    top: -210px;
+    top: -170px;
     width: 170px;
     padding-right: 5px;
 }
 .text-5{
     position: relative;
-    top: -350px;
+    top: -280px;
 }
 
 
@@ -376,7 +376,6 @@ a{
 
 .program-text{
     padding-bottom: 20px;
-    line-height: 30px;
     font-size: 17px;
 }
 
@@ -393,19 +392,19 @@ a{
 
 /*     News Section    */
 
-.news{
+.news-section{
     width: 100%;
     height: 110vh;
 }
 
-.news h5{
+.news-section h5{
     color: #006937;
     font-size: 32px;
     padding-left: 20px;
     padding-top: 40px;
 }
 
-.news-parent{
+.news-container{
     width: 100%;
     height: 92vh;
     margin-top: 6vh;
@@ -413,26 +412,26 @@ a{
     justify-content: space-evenly;
 }
 
-.news-parent div{
+.news-container div{
     height: 100%;
     width: 31%;
 
 }
 
-.news-parent div img{
+.news-container div img{
     width: 100%;
 }
-.news-parent div h2{
+.news-container div h2{
     color: #006937;
     padding: 15px 25px;
     font-size: 27px;
 }
-.news-parent div p{
+.news-container div p{
     padding: 0 25px;
     padding-bottom: 35px;
     font-size: 15px;
 }
-.news-parent div a{
+.news-container div a{
     text-decoration: none;
     margin-left: 25px;
     margin-top: 25px;
@@ -462,7 +461,7 @@ a{
     justify-content: space-evenly;
 }
 
-.contact-div1{
+.contact-card-1{
     background-image: url(../Assets/cloud.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -472,7 +471,7 @@ a{
     height: 100%;
     color: white;
 }
-.contact-div2{
+.contact-card-2{
       background-image: linear-gradient(to right, #00693685 , #006936);
     width: 47%;
     height: 100%;
@@ -481,17 +480,17 @@ a{
     justify-content: space-evenly;
 }
 
-.div2-add{
+.contact-app-links{
     height: 100%;
     width: 45%;
 }
 
-.iphone{
+.contact-device{
     height: 100%;
     width: 45%;
 }
 
-.div2-add h5{
+.contact-app-links h5{
     color: white;
     font-size: 30px;
     padding-left: 20px;
@@ -499,38 +498,38 @@ a{
     padding-bottom: 30px;
 }
 
-.div2-add img{
+.contact-app-links img{
     padding-left: 20px;
     padding-bottom: 20px;
 }
 
-.iphone img{
+.contact-device img{
     padding-top: 43px;
     padding-left: 50px;
 }
 
-.contact-div1 p{
+.contact-card-1 p{
     font-size: 31px;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.field{
+.contact-form{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.field div{
+.contact-form div{
     width: 42%;
 
 }
 
-.field label{
+.contact-form label{
     color: white;
     font-size: 12px;
 }
-.field input{
+.contact-form input{
     width: 100%;
     height: 45px;
     outline: none;
@@ -540,7 +539,7 @@ a{
     padding-left: 10px;
 }
 
-.contact-div1 button{
+.contact-card-1 button{
     background-color: #006937;
     color: white;
     border: none;
@@ -565,7 +564,7 @@ footer{
     padding-top: 12vh;
 }
 
-.footer-contact{
+.footer-top{
     height: 30vh;
     width: 100%;
     display: flex;
@@ -573,7 +572,7 @@ footer{
 
 }
 
-.footer-contact div{
+.footer-top div{
     height: 100%;
     width: 23%;
     display: flex;
@@ -583,22 +582,22 @@ footer{
     color: #006937;
 }
 
-.footer-contact i{
+.footer-top i{
     padding-right: 12px;
     font-size: 25px;
 }
-.footer-contact p{
+.footer-top p{
     transition: all ease 0.5s;
     cursor: pointer;
 }
-.footer-contact p:hover{
+.footer-top p:hover{
     color: #aa9113;
 }
 hr{
     margin: 40px 20px;
 }
 
-.footer-sec2{
+.footer-nav{
     width: 100%;
     height: 30vh;
     margin-top: 2vh;
@@ -606,7 +605,7 @@ hr{
     justify-content: space-evenly;
 }
 
-.footer-sec2 div{
+.footer-nav div{
     height: 100%;
     width: 29%;
 }
@@ -674,7 +673,7 @@ footer li:hover{
     color: #aa9113;
 }
 
-.rights{
+.footer-bottom{
     color: #006937;
     text-align: center;
 }
