@@ -587,10 +587,12 @@ footer{
     padding-right: 12px;
     font-size: 25px;
 }
+
 .footer-top p{
     transition: all ease 0.5s;
     cursor: pointer;
 }
+
 .footer-top p:hover{
     color: #aa9113;
 }
