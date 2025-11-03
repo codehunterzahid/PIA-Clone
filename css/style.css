@@ -5,7 +5,8 @@
 
 }
 
-/*      Main Section     */
+/* ============ Main Section ============ */
+
 
 .home {
     width: 100%;
@@ -75,7 +76,7 @@ a{
 }
 
 
-/*      info section     */
+/* ============ Info Section ============ */
 
 .flight-info{
     width: 100%;
@@ -196,7 +197,7 @@ a{
 }
 
 
-/*     Services    */
+/* ============ Services Section ============ */
 
 .services{
     background-color: #f9f5ec;
@@ -243,7 +244,7 @@ a{
 }
 
 
-/*     Offers    */
+/* ============ Offers Section ============ */
 
 .offers-section{
     height: 117vh;
@@ -347,7 +348,7 @@ a{
 }
 
 
-/*     Corporate Program    */
+/* ============ Program Section ============ */
 
 .program{
     background-image: linear-gradient(to right, rgba(0, 105, 54, 0.555), rgba(0, 105, 54, 0.644)), url('../Assets/corpotate_banner.png');
@@ -388,7 +389,7 @@ a{
 }
 
 
-/*     News Section    */
+/* ============ News Section ============ */
 
 .news-section{
     width: 100%;
@@ -442,7 +443,7 @@ a{
 }
 
 
-/*     Contact    */
+/* ============ Contact Section ============ */
 
 .contact{
     width: 100%;
@@ -550,7 +551,7 @@ a{
     bottom: -20px;
 }
 
-/*     Footer    */
+/* ============ Footer Section ============ */
 
 footer{
     background-image: url(../Assets/wave2.svg);

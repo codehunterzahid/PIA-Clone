@@ -742,6 +742,152 @@
     }
 }
 
+/* ================================================ News Section ================================================ */
+
+/* ============ Small Desktop ============== */
+@media (max-width: 1024px) {
+    .news-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .news-section h5 {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+
+    .news-container {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .news-container div {
+        width: 45%;
+        height: auto;
+    }
+
+    .news-container div h2 {
+        font-size: 24px;
+    }
+
+    .news-container div p {
+        font-size: 14px;
+    }
+
+    .news-container div a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+/* =========== Tablet View ============= */
+
+@media (max-width: 768px) {
+    .news-section {
+        height: auto;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .news-section h5 {
+        font-size: 26px;
+        padding-left: 0;
+    }
+
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 40px;
+    }
+
+    .news-container div {
+        width: 80%;
+        height: auto;
+    }
+
+    .news-container div h2 {
+        font-size: 22px;
+    }
+
+    .news-container div p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .news-container div a {
+        font-size: 14px;
+        padding: 9px 12px;
+        display: inline-block;
+    }
+}
+
+/* ============ Mobile View ============= */
+
+@media (max-width: 480px) {
+    .news-section {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .news-section h5 {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+
+    .news-container div {
+        width: 90%;
+        height: auto;
+    }
+
+    .news-container div h2 {
+        font-size: 20px;
+        padding: 10px 15px;
+    }
+
+    .news-container div p {
+        font-size: 14px;
+        padding: 0 15px 25px 15px;
+    }
+
+    .news-container div a {
+        font-size: 13px;
+        padding: 8px 10px;
+        margin-left: 15px;
+    }
+}
+
+/* ========== Small Phones ============= */
+
+@media (max-width: 360px) {
+    .news-section h5 {
+        font-size: 20px;
+    }
+
+    .news-container div h2 {
+        font-size: 18px;
+    }
+
+    .news-container div p {
+        font-size: 13px;
+    }
+
+    .news-container div a {
+        font-size: 12px;
+        padding: 7px 8px;
+    }
+}
+
+
 
 /* ================================================ Contact Section ================================================ */
 
