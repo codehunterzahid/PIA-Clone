@@ -931,3 +931,208 @@
 
 
 /* ================================================ Footer Section ================================================ */
+
+/* ============ Small Desktop ============ */
+
+@media (max-width: 1024px) {
+    footer {
+        height: auto;
+        padding-top: 8vh;
+        padding-bottom: 5vh;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .footer-top div {
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+
+    .footer-nav div {
+        width: 40%;
+        height: auto;
+    }
+
+    .about-us h4,
+    .facility h4,
+    .help h4 {
+        font-size: 18px;
+    }
+
+    .about-us li,
+    .facility li,
+    .help li {
+        font-size: 15px;
+        padding-top: 8px;
+    }
+
+    hr {
+        margin: 30px 10px;
+    }
+
+    .footer-bottom {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+}
+
+/* ============ Tablet View ============ */
+@media (max-width: 768px) {
+    footer {
+        height: auto;
+        padding-top: 6vh;
+        padding-bottom: 5vh;
+        text-align: center;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        height: auto;
+    }
+
+    .footer-top div {
+        width: 80%;
+        justify-content: flex-start;
+        font-size: 16px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        height: auto;
+    }
+
+    .footer-nav div {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-us,
+    .facility,
+    .help {
+        flex-direction: column;
+    }
+
+    .about-us h4,
+    .facility h4,
+    .help h4 {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .about-us li,
+    .facility li,
+    .help li {
+        font-size: 15px;
+        padding-top: 7px;
+    }
+
+    hr {
+        margin: 25px 0;
+    }
+
+    .footer-bottom {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+}
+
+/* ========== Mobile View ============= */
+
+@media (max-width: 480px) {
+    footer {
+        height: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .footer-top div {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        padding-left: 20px;
+    }
+
+    .footer-nav div {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us,
+    .facility,
+    .help {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-us h4,
+    .facility h4,
+    .help h4 {
+        font-size: 17px;
+    }
+
+    .about-us li,
+    .facility li,
+    .help li {
+        font-size: 14px;
+    }
+
+    .footer-bottom {
+        font-size: 13px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+}
+
+/* ============ Very Small Devices ============= */
+
+@media (max-width: 360px) {
+    .footer-top div {
+        font-size: 14px;
+    }
+
+    .about-us h4,
+    .facility h4,
+    .help h4 {
+        font-size: 16px;
+    }
+
+    .about-us li,
+    .facility li,
+    .help li {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
