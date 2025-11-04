@@ -25,6 +25,27 @@
 }
 
 
+@media (max-width: 2048px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    width: 55%;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .nav-logo {
+    width: 150px;
+  }
+
+  .hero-bg {
+    height: 80vh;
+  }
+}
 
 /* ===========Tablet View ============= */
 
@@ -136,6 +157,36 @@
 /* ===========Laptop / Small Desktop========== */
 
 @media (max-width: 1024px) {
+  .flight-info {
+    height: 75vh;
+  }
+
+  .booking-info {
+    top: -20vh;
+    width: 85%;
+    left: 7%;
+  }
+
+  .booking-link {
+    font-size: 18px;
+  }
+
+  .info-table {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .input {
+    width: 45%;
+  }
+
+  .info-btn {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 2048px) {
   .flight-info {
     height: 75vh;
   }
@@ -358,7 +409,39 @@
 
 
 /* ==========Small Desktop ============ */
+
 @media (max-width: 1024px) {
+    .services {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .services h1 {
+        font-size: 35px;
+        padding-left: 30px;
+    }
+
+    .service-container {
+        flex-wrap: wrap;
+        gap: 30px;
+        height: auto;
+    }
+
+    .service-details {
+        width: 40%;
+        height: auto;
+    }
+
+    .service-details h2 {
+        font-size: 18px;
+    }
+
+    .service-details p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 2048px) {
     .services {
         height: auto;
         padding-bottom: 50px;
@@ -490,6 +573,52 @@
 /* ============ Small Desktop ============= */
 
 @media (max-width: 1024px) {
+    .offers-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .offers-section h2 {
+        font-size: 28px;
+        padding: 40px 20px;
+    }
+
+    .offer-container {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .offer-card1,
+    .offer-card2,
+    .offer-card3 {
+        width: 45%;
+        height: auto;
+    }
+
+    .offer-card1 div,
+    .offer-card2 div,
+    .offer-card3 div {
+        height: auto;
+    }
+
+    .offer-text {
+        font-size: 22px;
+        padding: 5px 60px 5px 10px;
+    }
+
+    .text-1,
+    .text-2,
+    .text-3,
+    .text-4,
+    .text-5 {
+        position: relative;
+        top: -150px;
+    }
+}
+
+
+@media (max-width: 2048px) {
     .offers-section {
         height: auto;
         padding-bottom: 40px;
@@ -684,6 +813,32 @@
     }
 }
 
+
+@media (max-width: 2048px) {
+    .program {
+        height: 40vh;
+    }
+
+    .program-container {
+        width: 75%;
+        padding-left: 20%;
+    }
+
+    .program-head {
+        font-size: 30px;
+        padding: 25px 0;
+    }
+
+    .program-text {
+        font-size: 16px;
+    }
+
+    .program-btn {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+}
+
 /* =========== Tablet View ============= */
 
 @media (max-width: 768px) {
@@ -771,7 +926,45 @@
 /* ================================================ News Section ================================================ */
 
 /* ============ Small Desktop ============== */
+
 @media (max-width: 1024px) {
+    .news-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .news-section h5 {
+        font-size: 28px;
+        padding-left: 30px;
+    }
+
+    .news-container {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .news-container div {
+        width: 45%;
+        height: auto;
+    }
+
+    .news-container div h2 {
+        font-size: 24px;
+    }
+
+    .news-container div p {
+        font-size: 14px;
+    }
+
+    .news-container div a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+
+@media (max-width: 2048px) {
     .news-section {
         height: auto;
         padding-bottom: 40px;
@@ -920,7 +1113,52 @@
 
 
 /* =========== Small Desktop ============== */
+
 @media (max-width: 1024px) {
+    .contact {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .contact-main {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+    }
+
+    .contact-card-1,
+    .contact-card-2 {
+        width: 85%;
+        height: auto;
+    }
+
+    .contact-card-1 p {
+        font-size: 26px;
+        padding: 25px 10px;
+    }
+
+    .contact-card-1 button {
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contact-app-links h5 {
+        font-size: 26px;
+        padding-top: 40px;
+    }
+
+    .contact-device img {
+        padding-left: 0;
+        display: block;
+        margin: 20px auto;
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 2048px) {
     .contact {
         height: auto;
         padding: 40px 0;
@@ -1109,6 +1347,59 @@
 /* ============ Small Desktop ============ */
 
 @media (max-width: 1024px) {
+    footer {
+        height: auto;
+        padding-top: 8vh;
+        padding-bottom: 5vh;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+    }
+
+    .footer-top div {
+        width: 40%;
+        font-size: 16px;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+    }
+
+    .footer-nav div {
+        width: 40%;
+        height: auto;
+    }
+
+    .about-us h4,
+    .facility h4,
+    .help h4 {
+        font-size: 18px;
+    }
+
+    .about-us li,
+    .facility li,
+    .help li {
+        font-size: 15px;
+        padding-top: 8px;
+    }
+
+    hr {
+        margin: 30px 10px;
+    }
+
+    .footer-bottom {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+}
+
+
+@media (max-width: 2048px) {
     footer {
         height: auto;
         padding-top: 8vh;

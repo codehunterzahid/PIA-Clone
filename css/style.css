@@ -7,6 +7,10 @@
 
 /* ============ Main Section ============ */
 
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .home {
     width: 100%;
@@ -208,7 +212,7 @@ a{
 
 .services h1{
     padding-top: 50px;
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 40px;
     color: #006937;
 }
@@ -224,7 +228,7 @@ a{
 .service-details{
     background-color: white;
     height: 100%;
-    width: 21%;
+    width: 23%;
     border-radius: 20px;
 }
 
@@ -266,7 +270,7 @@ a{
 }
 
 .offer-card1{
-    width: 27%;
+    width: 26.5%;
     height: 100%;
 }
 
